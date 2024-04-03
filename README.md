@@ -27,7 +27,7 @@ npm run dev
 
 # mongodb数据库模型
 ```json
-wish{
+wish: {
     "_id":"ObjectId",
     "title":"string",
     "content":"string",
