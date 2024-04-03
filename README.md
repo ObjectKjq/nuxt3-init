@@ -4,7 +4,7 @@
 git clone -b v3 https://github.com/nuxt/starter.git my-project
 
 # 拉取项目模板
-git clone https://github.com/zhaoyiming0803/nuxt-project-template.git my-project
+git clone https://github.com/ObjectKjq/nuxt3-init.git nuxt-init
 ```
 
 ## 创建.env文件，添加mongodb数据库配置
@@ -28,11 +28,11 @@ npm run dev
 # mongodb数据库模型
 ```json
 wish{
-    _id:ObjectId,
-    title:string,
-    content:string,
-    createTime:date,
-    updateTime:date,
-    isDelete:boolean
+    "_id":"ObjectId",
+    "title":"string",
+    "content":"string",
+    "createTime":"date",
+    "updateTime":"date",
+    "isDelete":"boolean"
 }
 ```
