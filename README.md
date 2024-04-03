@@ -1,75 +1,25 @@
-# Nuxt 3 Minimal Starter
+# Nuxt.js 项目模板
+```shell
+# 拉取项目模板
+git clone -b v3 https://github.com/nuxt/starter.git my-project
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
-
-## Setup
-
-Make sure to install the dependencies:
-
-```bash
-# npm
+# 安装依赖
+cd my-project
 npm install
 
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
+# 启动开发环境
 npm run dev
 
-# pnpm
-pnpm run dev
+# 目录结构
+public/ # 静态资源
+server/ # 服务端渲染
 
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+# 数据模型
+wish{
+    _id:ObjectId,
+    title:string,
+    content:string,
+    createTime:date,
+    updateTime:date,
+    isDelete:boolean
+}
